@@ -34,7 +34,6 @@ reproduce exactly. The tables in `results/` come from the Apple ARM machine.
 | `bt4012_group_project.ipynb` | Full pipeline: profiling, folds, models, graph feature, business view |
 | `results/` | Tables used in the report |
 | `figures/` | Figures used in the report |
-| `report/` | Report source (`report.md`) and `build_docx.py`, which builds `report04.docx` (needs pandoc and python-docx) |
 | `data/` | Put `transactions_df.csv` here (git-ignored) |
 
 ## Evaluation design (short)

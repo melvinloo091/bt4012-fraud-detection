@@ -6,12 +6,14 @@ data/*
 __pycache__/
 .DS_Store
 
-# generated report files (rebuild with report/build_docx.py)
-report/*.docx
-report/*.pdf
-
 # local virtual environment
 .venv/
 
 # course slides and notebooks: course material, do not commit
 source lectures/
+
+# kept locally only (not part of the submitted code): report source,
+# presentation material and Claude's working notes
+report/
+presentation/
+CLAUDE.md
